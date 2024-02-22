@@ -1,0 +1,38 @@
+nav{
+    background: linear-gradient(to right, rgb(85, 84, 84), rgb(172, 167, 167));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1{
+    margin-left: 10px;
+    color: #fff;
+    font-size: x-large;
+    font-style: italic;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+.search{
+    margin-right: 50px;
+}
+#conditionInput{
+    border-color: white;
+    color: rgb(86, 184, 86);
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+#btnSearch, #btnClear{
+    background-color: green;
+    border-color: green;
+    height: 25px;
+    color: White;
+    border-radius: 3px;
+}
