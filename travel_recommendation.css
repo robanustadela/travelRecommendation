@@ -24,9 +24,10 @@ nav ul li {
 }
 #conditionInput{
     border-color: white;
-    color: rgb(86, 184, 86);
+    color: rgb(23, 192, 169);
+    font-size: medium;
     height: 25px;
-    width: 200px;
+    width: 300px;
     border-radius: 10px;
 }
 #btnSearch, #btnClear{
@@ -36,3 +37,36 @@ nav ul li {
     color: White;
     border-radius: 3px;
 }
+.container{
+    background-image:linear-gradient(to right, rgba(24, 83, 87, 0.432), rgba(172, 167, 167, 0)), url('https://images.unsplash.com/photo-1620015092538-e33c665fc181?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.vertical-line {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 800px;
+    margin-left: 40px;
+  }
+
+  .social-media-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media-links li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-links li a {
+    display: block;
+  }
+  .big-text{
+    color: white;  
+    margin-left: 1rem;
+    font-weight:500;
+  }
