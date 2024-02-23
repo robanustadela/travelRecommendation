@@ -5,9 +5,11 @@ nav{
     justify-content: space-between;
 }
 nav h1{
-    margin-left: 10px;
-    color: #fff;
-    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-style: italic;
 }
 nav ul li {
@@ -90,7 +92,6 @@ nav ul li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: baseline;
     margin-top: 1rem;
-    margin-top: 0.5rem;
     margin-bottom: -0.5rem;
 }
 .bookNow{
@@ -110,4 +111,27 @@ nav ul li {
     color: white;
     align-items: baseline;
     margin-left: 3rem;
+}
+.paragraph-about{
+    width: 80%;
+    border: 3px solid #000;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: baseline;
+    margin-top: 1rem;
+    margin-bottom: -0.5rem;
+}
+.team{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.members{
+    margin-left: 50px;
+}
+.team h1{
+    display: block;
+    align-items: baseline;
+    justify-content: space-between;
 }
